@@ -30,6 +30,3 @@ while True:
 
 # break the web connection
 cam.release()
-
-
-print("Done")
