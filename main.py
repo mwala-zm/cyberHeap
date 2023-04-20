@@ -21,7 +21,6 @@ while True:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 256, 0), 10)
 
     # displaying all faces
-
     cv2.imshow("Facial recognition software", frame)
     key = cv2.waitKey(1)
 
